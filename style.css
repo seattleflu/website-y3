@@ -51,22 +51,22 @@ nav {
     display: grid;
 }
 
-/** Mobile display **/
-@media only screen and (max-width: 599) {
+/** Mobile and tablet display **/
+@media only screen and (max-width: 699) {
     #preamble {
         display: grid;
         grid-template-rows: 2fr 1fr;
     }
   }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     body {
         margin: 50px;
     }
 
     #preamble {
         display: grid;
-        grid-template-columns: 1fr 400px;
+        grid-template-columns: 1fr 350px;
     }
 
     #preamble nav {
