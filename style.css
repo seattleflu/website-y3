@@ -42,6 +42,11 @@ a:hover {
     text-decoration: underline;
 }
 
+nav {
+    display: grid;
+    align-items: center;
+}
+
 #preamble {
     display: grid;
 }
