@@ -35,6 +35,12 @@ button {
     cursor: pointer;
 }
 
+button:disabled {
+    background-color: #aaa;
+    border-color: #aaa;
+    cursor: not-allowed;
+}
+
 a {
     text-decoration: none;
     color: #4b2e83;
