@@ -14,7 +14,8 @@ header {
 }
 
 header img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
 }
 
 hr {
@@ -55,6 +56,10 @@ a:hover {
 nav {
     display: grid;
     align-items: center;
+}
+
+#uw-logo {
+    max-width: 100px;
 }
 
 /** Mobile and tablet display **/
