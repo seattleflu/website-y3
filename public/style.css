@@ -1,7 +1,8 @@
 body {
     background-color: #fff;
     font-family: sans-serif;
-    max-width: min(90%, 1000px);
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -13,7 +14,7 @@ header {
 }
 
 header img {
-    max-width: min(100%, 300px);
+    max-width: 300px;
 }
 
 hr {
