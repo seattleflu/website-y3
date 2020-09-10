@@ -1,7 +1,10 @@
 <html>
   <script>
-    // Bust any previously-cached 301 Moved Permanently redirect from / → /scan.
-    fetch("/", {cache: "reload"})
-      .then(() => window.location = "/")
+    // Bust any previously-cached 301 Moved Permanently redirect from / and /uw → /scan.
+    Promise.all([
+      fetch("/", {cache: "reload"}),
+      fetch("/uw", {cache: "reload"})
+    ])
+    .then(() => window.location = "/")
   </script>
 </html>
