@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    max-width: 300px;
+    max-width: 100%;
 }
 
 hr {
@@ -57,22 +57,8 @@ nav {
     align-items: center;
 }
 
-#sfs-logos {
-    display: grid;
-    place-items: center;
-    grid-column-gap: 50px;
-}
-
-#sfs-logos img {
-    width: 100%;
-}
-
 /** Mobile and tablet display **/
 @media only screen and (max-width: 699) {
-    #sfs-logos {
-        grid-template-rows: 1fr 1fr;
-    }
-
     #preamble {
         display: grid;
         grid-template-rows: 2fr 1fr;
@@ -80,10 +66,6 @@ nav {
   }
 
 @media only screen and (min-width: 700px) {
-    #sfs-logos {
-        grid-template-columns: 1fr 1fr;
-    }
-
     #preamble {
         display: grid;
         grid-template-columns: 1fr 350px;
