@@ -1,0 +1,7 @@
+<html>
+  <script>
+    // Bust any previously-cached 301 Moved Permanently redirect from / → /scan.
+    fetch("/", {cache: "reload"})
+      .then(() => window.location = "/")
+  </script>
+</html>
