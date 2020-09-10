@@ -59,10 +59,6 @@ nav {
     width: 100%;
 }
 
-#preamble {
-    display: grid;
-}
-
 /** Mobile and tablet display **/
 @media only screen and (max-width: 699) {
     #sfs-logos {
