@@ -59,7 +59,7 @@ nav {
 #sfs-logos {
     display: grid;
     place-items: center;
-    grid-gap: 50px;
+    grid-column-gap: 50px;
 }
 
 #sfs-logos img {
