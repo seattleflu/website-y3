@@ -2,3 +2,4 @@
 #
 
 aws s3 sync . s3://website-y3
+aws s3 cp scan s3://website-y3 --website-redirect https://scanpublichealth.org
