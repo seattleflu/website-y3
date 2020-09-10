@@ -1,7 +1,7 @@
 body {
     background-color: #fff;
     font-family: sans-serif;
-    max-width: 1000px;
+    max-width: min(90%, 1000px);
     margin: 0 auto;
 }
 
@@ -76,10 +76,6 @@ nav {
   }
 
 @media only screen and (min-width: 700px) {
-    body {
-        padding: 50px;
-    }
-
     #sfs-logos {
         grid-template-columns: 1fr 1fr;
     }
