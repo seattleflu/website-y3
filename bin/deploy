@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-aws s3 sync . s3://website-y3
+aws s3 sync . s3://website-y3 --delete
 aws s3 cp scan s3://website-y3 --website-redirect https://scanpublichealth.org
 aws cloudfront create-invalidation --distribution-id E2V9PC9T4W66U4 --paths "/*"
