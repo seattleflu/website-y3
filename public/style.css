@@ -53,9 +53,23 @@ a:hover {
     text-decoration: underline;
 }
 
-nav {
+.uw nav {
     display: grid;
     align-items: center;
+}
+
+.home menu {
+  display: grid;
+  place-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.home li {
+  grid-row: 1;
+  padding: 10px;
 }
 
 #uw-logo {
@@ -76,7 +90,7 @@ nav {
         grid-template-columns: 1fr 350px;
     }
 
-    #preamble nav {
+    #preamble .uw nav {
         grid-column: 2;
         grid-row: 1;
     }
