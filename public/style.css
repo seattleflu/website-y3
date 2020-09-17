@@ -26,7 +26,6 @@ hr {
 
 button {
     display: grid;
-    margin: 0 auto;
     background-color: #4b2e83;
     border-color: #4b2e83;
     border-radius: 5px;
@@ -35,6 +34,7 @@ button {
     font-size: 22px;
     font-weight: 700;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 button:disabled {
