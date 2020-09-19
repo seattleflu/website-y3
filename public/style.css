@@ -24,8 +24,9 @@ hr {
     color: #ccc;
 }
 
-button {
+a.button {
     display: grid;
+    place-content: center;
     background-color: #4b2e83;
     border-color: #4b2e83;
     border-radius: 5px;
@@ -37,10 +38,11 @@ button {
     margin: 0 auto;
 }
 
-button:disabled {
+a.button.disabled {
     background-color: #aaa;
     border-color: #aaa;
     cursor: not-allowed;
+    pointer-events: none;
 }
 
 a {
