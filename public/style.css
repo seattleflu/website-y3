@@ -36,6 +36,7 @@ a.button {
     cursor: pointer;
     margin: 0 auto;
     text-transform: uppercase;
+    max-width: 300px;
 }
 
 a.button.disabled {
