@@ -11,6 +11,22 @@
 
 <body>
   <header>
+    <nav class="home">
+      <menu>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/uw">Husky Coronavirus Testing</a>
+        </li>
+        <li>
+          <a href="https://scanpublichealth.org">SCAN</a>
+        </li>
+        <li>
+          <a href="/results">Look up your result</a>
+        </li>
+      </menu>
+    </nav>
     <img id="uw-logo"
       alt="University of Washington logo"
       src="../images/logo_UW_block.svg">
@@ -20,7 +36,7 @@
   </header>
   <hr>
   <div id="preamble">
-    <nav>
+    <nav class="uw">
       <menu>
         <li>
           <a href="#about">About</a>
@@ -63,10 +79,9 @@
     make sure you are eligible to participate, and then be brought to our Consent Form. Students
     under the age of 18 will need a signature from a parent or guardian to participate.
   </p>
-  <button disabled
-    onclick="window.location.href='http://google.com'">
-    ENROLL HERE
-  </button>
+  <a class="button disabled">
+    Enroll here
+  </a>
   <p>
     <mark>The Husky Coronavirus Testing study is not yet live. Please check back soon!</mark>
   </p>

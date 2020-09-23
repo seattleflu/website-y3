@@ -10,7 +10,6 @@ header {
     display: grid;
     place-items: center;
     text-align: center;
-    margin-top: 25px;
 }
 
 header img {
@@ -24,9 +23,9 @@ hr {
     color: #ccc;
 }
 
-button {
+a.button {
     display: grid;
-    margin: 0 auto;
+    place-content: center;
     background-color: #4b2e83;
     border-color: #4b2e83;
     border-radius: 5px;
@@ -35,12 +34,16 @@ button {
     font-size: 22px;
     font-weight: 700;
     cursor: pointer;
+    margin: 0 auto;
+    text-transform: uppercase;
+    max-width: 300px;
 }
 
-button:disabled {
+a.button.disabled {
     background-color: #aaa;
     border-color: #aaa;
     cursor: not-allowed;
+    pointer-events: none;
 }
 
 a {
@@ -53,9 +56,23 @@ a:hover {
     text-decoration: underline;
 }
 
-nav {
+.uw nav {
     display: grid;
     align-items: center;
+}
+
+.home menu {
+  display: grid;
+  place-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-size: 0.8em;
+}
+
+.home li {
+  grid-row: 1;
+  padding: 10px;
 }
 
 #uw-logo {
@@ -76,7 +93,7 @@ nav {
         grid-template-columns: 1fr 350px;
     }
 
-    #preamble nav {
+    #preamble .uw nav {
         grid-column: 2;
         grid-row: 1;
     }
